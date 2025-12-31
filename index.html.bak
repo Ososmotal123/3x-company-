@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3x – Gypsum & Construction | Riyadh</title>
+
+    <meta name="description" content="3x is a gypsum decoration and construction company based in Riyadh, Saudi Arabia. We deliver high-quality gypsum decoration, gypsum board installation, and interior finishing for villas, apartments, halls, mosques, and commercial projects.">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Modern, clean font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Three X logo" class="logo-img" />
+                <div class="logo-text">
+                    <span class="logo-title">3x Gypsum & Construction</span>
+                    <span class="logo-subtitle">Riyadh, Saudi Arabia</span>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#why-us">Where We Work</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="lang-switch" aria-label="Language selector">
+                <a href="index.html" class="lang-link lang-active">EN</a>
+                <span class="lang-divider">|</span>
+                <a href="index-ar.html" class="lang-link">العربية</a>
+            </div>
+
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                <!-- WhatsApp CTA -->
+                <a href="https://wa.me/966504202782" target="_blank" class="btn btn-primary">WhatsApp</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#why-us">Where We Work</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/966504202782" target="_blank" class="btn btn-primary mobile-whatsapp">WhatsApp</a>
+        <div class="lang-switch lang-switch-mobile" aria-label="Language selector">
+            <a href="index.html" class="lang-link lang-active">EN</a>
+            <span class="lang-divider">|</span>
+            <a href="index-ar.html" class="lang-link">العربية</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <img class="hero-image" src="img/hero-wedding-hall.jpg"
+                alt="Luxury wedding hall with custom gypsum ceiling and lighting" />
+            <div class="hero-content">
+                <h1>Riyadh Gypsum Projects</h1>
+                <p>High-end gypsum ceilings and walls for villas, palaces, mosques and halls.</p>
+                <a href="#projects" class="btn btn-primary">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Where We Work</h2>
+                <p>Specialized gypsum work for premium residential, royal, and public spaces across Riyadh.</p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img src="img/project-villa-interior.jpg"
+                        alt="Luxurious villa interior with classic gypsum mouldings" class="card-image" />
+                    <h3>Luxury Villas</h3>
+                    <p>
+                        Complete gypsum ceilings and wall panels for private villas, including reception areas,
+                        staircases, and indoor pools.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="img/project-palace-interior.jpg"
+                        alt="Royal palace majlis with gold and white gypsum details" class="card-image" />
+                    <h3>Palaces & Majlis</h3>
+                    <p>
+                        High-detail cornices, columns, and wall designs tailored for royal majlis and large reception halls.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="img/project-mosque-hall.jpg"
+                        alt="Modern mosque prayer hall with gypsum ceiling" class="card-image" />
+                    <h3>Mosques & Halls</h3>
+                    <p>
+                        Clean, bright gypsum solutions for mosques, community centres, and halls with acoustic and lighting integration.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We focus on gypsum work and interior finishing for residential, hospitality, religious, and commercial clients in Riyadh.</p>
+                <div class="service-tags">
+                    <span class="service-tag">Luxury villas</span>
+                    <span class="service-tag">Wedding & event halls</span>
+                    <span class="service-tag">Mosques & majlis</span>
+                    <span class="service-tag">Hotels & restaurants</span>
+                    <span class="service-tag">Corporate suites</span>
+                </div>
+            </div>
+
+            <div class="service-content">
+                <article class="card service-lead animated-card">
+                    <p>
+                        Our Riyadh execution team handles concept, shop drawings, and site finishing so you receive a clean,
+                        ready-to-paint space without managing multiple contractors.
+                    </p>
+                    <ul class="service-highlights">
+                        <li>Luxury ceilings with layered indirect lighting</li>
+                        <li>Feature walls, arches, and decorative panels</li>
+                        <li>Coordination with electricians and painters</li>
+                    </ul>
+                    <div class="service-metrics">
+                        <div class="service-metric">
+                            <span class="metric-value">120+</span>
+                            <span class="metric-label">Spaces delivered yearly</span>
+                        </div>
+                        <div class="service-metric">
+                            <span class="metric-value">&lt;72h</span>
+                            <span class="metric-label">Average site visit scheduling</span>
+                        </div>
+                        <div class="service-metric">
+                            <span class="metric-value">1 team</span>
+                            <span class="metric-label">Owner-supervised on site</span>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="grid services-grid">
+                    <article class="card service-card animated-card">
+                        <div class="service-card-top">
+                            <span class="service-pill">Signature Ceilings</span>
+                            <span class="service-duration">2–4 weeks</span>
+                        </div>
+                        <h3>Layered Gypsum Ceilings</h3>
+                        <p>Multi-level ceilings with domes, floating trays, and indirect lighting for villas, majlis, and ballrooms.</p>
+                        <ul class="service-list">
+                            <li>Hidden LED coves + chandeliers</li>
+                            <li>Integrated AC and speaker openings</li>
+                            <li>Fire-resistant gypsum board assemblies</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card">
+                        <div class="service-card-top">
+                            <span class="service-pill">Feature Walls</span>
+                            <span class="service-duration">10–14 days</span>
+                        </div>
+                        <h3>TV Walls & Partitions</h3>
+                        <p>Statement walls with shelving, lighting niches, and acoustic insulation for living rooms and offices.</p>
+                        <ul class="service-list">
+                            <li>Custom shelving and recessed niches</li>
+                            <li>Backlit marble or wood inserts</li>
+                            <li>Concealed cabling routes</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card">
+                        <div class="service-card-top">
+                            <span class="service-pill">Hospitality</span>
+                            <span class="service-duration">Custom schedule</span>
+                        </div>
+                        <h3>Event & Hotel Fit-Out</h3>
+                        <p>Durable gypsum finishes for wedding halls, hotels, restaurants, and premium reception areas.</p>
+                        <ul class="service-list">
+                            <li>High ceilings with acoustic treatment</li>
+                            <li>Lighting coordination & shop drawings</li>
+                            <li>Night-shift execution to reduce downtime</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card">
+                        <div class="service-card-top">
+                            <span class="service-pill">Sacred & Majlis</span>
+                            <span class="service-duration">Custom supervision</span>
+                        </div>
+                        <h3>Mosques & Royal Majlis</h3>
+                        <p>Classic mouldings, ornate domes, and calligraphy-ready surfaces for mosques and royal residences.</p>
+                        <ul class="service-list">
+                            <li>Precise symmetry for arches and mihrab</li>
+                            <li>Premium plaster mixes for crisp carving</li>
+                            <li>Coordination with chandelier suppliers</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card">
+                        <div class="service-card-top">
+                            <span class="service-pill">Full Support</span>
+                            <span class="service-duration">72h response</span>
+                        </div>
+                        <h3>Renovation & Handover</h3>
+                        <p>From demolition to handover, we coordinate trades, protect floors, and deliver ready-for-furnishing spaces.</p>
+                        <ul class="service-list">
+                            <li>Daily progress updates with media</li>
+                            <li>Quality checklist before paint</li>
+                            <li>Final cleaning and punch-list</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Highlights of our gypsum work for iconic venues and residences in Riyadh.</p>
+        </div>
+        <div class="project-grid">
+            <article class="card project-card animated-card">
+                <img src="img/hero-wedding-hall.jpg"
+                     alt="Wide view of modern wedding hall gypsum ceiling"
+                     class="card-image" />
+                <h3>Modern Wedding Hall</h3>
+                <p>
+                    Ceiling design with indirect light for a modern wedding venue in Riyadh.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-modern-hall-stripes.jpg"
+                     alt="Hall with linear light stripes in gypsum ceiling"
+                     class="card-image" />
+                <h3>Contemporary Hall</h3>
+                <p>
+                    Linear gypsum ceiling stripes with integrated lighting.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-palace-facade.jpg"
+                     alt="Palace facade with large gypsum entrance arch"
+                     class="card-image" />
+                <h3>Palace Facade</h3>
+                <p>
+                    Custom exterior gypsum arch, columns and entrance detailing.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-palace-interior.jpg"
+                     alt="Palace interior with rich gypsum detailing"
+                     class="card-image" />
+                <h3>Palace Majlis</h3>
+                <p>
+                    High-end classic mouldings and wall panels for a royal majlis.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-villa-garden.jpg"
+                     alt="Garden path between villas with exterior gypsum details"
+                     class="card-image" />
+                <h3>Villa Garden</h3>
+                <p>
+                    Exterior gypsum details and landscaping between private villas.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-mosque-hall.jpg"
+                     alt="Large mosque hall with blue carpet and gypsum ceiling"
+                     class="card-image" />
+                <h3>Modern Mosque Hall</h3>
+                <p>
+                    Clean gypsum lines and daylight-friendly ceiling for a mosque hall.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-atrium-finished.jpg"
+                     alt="Finished atrium with glass roof and gypsum parapets"
+                     class="card-image" />
+                <h3>Office Atrium</h3>
+                <p>
+                    Finished skylight atrium with gypsum parapets and railings.
+                </p>
+            </article>
+
+            <article class="card project-card animated-card">
+                <img src="img/project-linear-room-3.jpg"
+                     alt="Room with vertical and horizontal LED slots in gypsum"
+                     class="card-image" />
+                <h3>Linear Light Room</h3>
+                <p>
+                    Ceiling and wall LED channels in a minimalist gypsum interior.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <!-- ABOUT -->
+    
+
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Gallery</h2>
+                <p>A selection of villas, palaces, mosques and halls executed in Riyadh.</p>
+            </div>
+            <div class="gallery-grid gallery-grid-dense">
+                <figure class="gallery-item"><img src="img/project-classic-detail.jpg" alt="Close detail of gypsum cornice and paneling"><figcaption>Cornice Detail – Fine decorative carving.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-villa-courtyard-wall.jpg" alt="Courtyard wall with arched gypsum panels"><figcaption>Courtyard Wall – Exterior arches and patterns.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-villa-interior.jpg" alt="Villa interior classic white gypsum mouldings"><figcaption>Villa Salon – Classic white wall panels.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-mosque-mihrab-2.jpg" alt="Mihrab under construction with gypsum frames"><figcaption>Mihrab Under Construction – Structural gypsum framing.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-atrium-finished-2.jpg" alt="Atrium seen from upper level with glass roof"><figcaption>Atrium View – From upper corridor.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-atrium-progress-2.jpg" alt="Atrium under construction with scaffolding and skylight"><figcaption>Atrium Construction – Full scaffolding and access platforms.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-corridor-modern.jpg" alt="Modern corridor with ceiling strip light and timber wall"><figcaption>Residential Corridor – Warm strip light in gypsum ceiling.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-corridor-modern-2.jpg" alt="Open-plan modern space with linear gypsum ceiling"><figcaption>Office Space – Continuous linear ceiling system.</figcaption></figure>
+                <figure class="gallery-item"><img src="img/project-corridor-dark-carpet.jpg" alt="Corridor with dark carpet and marble feature wall"><figcaption>Hotel Corridor – Dark carpet and feature wall cladding.</figcaption></figure>
+            </div>
+        </div>
+    </section>
+<section class="section" id="about">
+        <div class="container about-grid">
+            <div class="about-description">
+                <span class="about-eyebrow">Our Story</span>
+                <h2>About 3x</h2>
+                <p class="about-lede">
+                    3x is a Riyadh-based gypsum and construction studio led by an owner on site every day.
+                    We blend modern execution with classic craft so every ceiling, wall panel, and feature line
+                    feels tailored to the space.
+                </p>
+                <p>
+                    From villas and palaces to mosques and hospitality halls, we handle the gypsum package end-to-end,
+                    coordinate with MEP and paint teams, and deliver a pristine site ready for the next finishing stage.
+                </p>
+                <ul class="about-list">
+                    <li>Design-build gypsum solutions for villas, palaces, and hospitality venues.</li>
+                    <li>Owner-led supervision keeps details crisp, safe, and aligned with drawings.</li>
+                    <li>Daily progress communication and handover ready for paint or final fit-out.</li>
+                </ul>
+            </div>
+            <div class="about-stats">
+                <div class="stat animated-card">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Years of hands-on experience</span>
+                </div>
+                <div class="stat animated-card">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Projects delivered in Riyadh</span>
+                </div>
+                <div class="stat animated-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Owner-supervised execution</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-alt" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>How We Work</h2>
+                <p>Clear, simple steps from first contact to final handover.</p>
+            </div>
+            <div class="process-layout">
+                <div class="process-text">
+                    <ol class="process-grid">
+                        <li class="process-step animated-card">
+                            <h3>Contact & Basic Info</h3>
+                            <p>You contact us via phone or WhatsApp and share basic info about your project and location in Riyadh.</p>
+                        </li>
+                        <li class="process-step animated-card">
+                            <h3>Site Visit</h3>
+                            <p>We visit the site, take measurements, discuss design ideas, and check the existing condition.</p>
+                        </li>
+                        <li class="process-step animated-card">
+                            <h3>Quotation & Time Plan</h3>
+                            <p>We provide a clear quotation and estimated duration. Once approved, we schedule the work.</p>
+                        </li>
+                        <li class="process-step animated-card">
+                            <h3>Execution & Handover</h3>
+                            <p>Our team executes the gypsum work with owner supervision, then we clean and hand over the site.</p>
+                        </li>
+                    </ol>
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+        <div class="container contact-grid">
+            <div>
+                <h2>Contact & Location</h2>
+                <p>
+                    Tell us about your project and we will call you to schedule a site visit in Riyadh.
+                </p>
+                <ul class="contact-list">
+                    <li><strong>Company:</strong> 3x Gypsum & Construction</li>
+                    <li><strong>City:</strong> Riyadh, Saudi Arabia</li>
+                    <li><strong>Phone (owner):</strong> <a href="tel:+966504202782" class="text-ltr">+966 50 420 2782</a></li>
+                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/966504202782" target="_blank">Chat on WhatsApp</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:Trheexriyadh@gmail.com">Trheexriyadh@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="card contact-form-card">
+                <h3>Request a Quote</h3>
+                <!-- Front-end only form (no back-end yet) -->
+                <form id="quoteForm" enctype="multipart/form-data">
+                    <div class="form-row">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="phone">Phone / WhatsApp</label>
+                        <input type="tel" id="phone" name="phone" required />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="area">Project Area in Riyadh</label>
+                        <input type="text" id="area" name="area" placeholder="e.g., Al Malqa, Al Nakheel" required />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="service">Type of Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select...</option>
+                            <option value="gypsum-decoration">On-site gypsum decoration</option>
+                            <option value="gypsum-board">Gypsum board ceilings/partitions</option>
+                            <option value="renovation">Interior finishing / renovation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Briefly describe your project, area size, and preferred time to contact you." required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="attachments">Project Files (optional)</label>
+                        <input type="file" id="attachments" name="attachments" accept=".pdf,image/*" multiple />
+                        <span class="input-hint">Upload floor plans, blueprints, sketches, or inspiration photos (PDF, JPG, PNG).</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Send Request</button>
+
+                    <p class="form-message" id="formMessage"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> 3x Gypsum & Construction – Riyadh, Saudi Arabia. All rights reserved.</p>
+            <p class="footer-credit">Website developed by <strong>Mr. oussama</strong>.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

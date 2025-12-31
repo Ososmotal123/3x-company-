@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3x - تركيب الجبس والجبس بورد وأعمال التشطيب | الرياض</title>
+
+    <meta name="description" content="3x تنفذ تركيب الجبس التقليدي والجبس بورد وحزم التشطيب المتكاملة في الرياض، بما في ذلك الدهان والأرضيات وتنسيق الأعمال الكهربائية.">
+
+    <link rel="canonical" href="index-ar.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="3x - تركيب الجبس والجبس بورد وأعمال التشطيب | الرياض" />
+    <meta property="og:description" content="3x تنفذ تركيب الجبس التقليدي والجبس بورد وحزم التشطيب المتكاملة في الرياض، بما في ذلك الدهان والأرضيات وتنسيق الأعمال الكهربائية." />
+    <meta property="og:image" content="img/hero-wedding-hall.jpg" />
+    <meta property="og:url" content="index-ar.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="3x - تركيب الجبس والجبس بورد وأعمال التشطيب | الرياض" />
+    <meta name="twitter:description" content="3x تنفذ تركيب الجبس التقليدي والجبس بورد وحزم التشطيب المتكاملة في الرياض، بما في ذلك الدهان والأرضيات وتنسيق الأعمال الكهربائية." />
+    <meta name="twitter:image" content="img/hero-wedding-hall.jpg" />
+
+    <link rel="icon" href="img/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+    <canvas id="bg3d" aria-hidden="true"></canvas>
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo">
+                <div class="logo-badge">
+                    <img src="img/logo.svg" alt="شعار ثري اكس" class="logo-img" />
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">3x أعمال الجبس</span>
+                    <span class="logo-subtitle">الرياض، المملكة العربية السعودية</span>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#why-us">أين نعمل</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#projects">المشاريع</a>
+                <a href="#gallery">معرض التشطيبات</a>
+                <a href="#about">من نحن</a>
+                <a href="#process">آلية العمل</a>
+                <a href="#contact">تواصل معنا</a>
+            </nav>
+
+            <div class="lang-switch" aria-label="اختيار اللغة">
+                <a href="index.html" class="lang-link">EN</a>
+                <span class="lang-divider">|</span>
+                <a href="index-ar.html" class="lang-link lang-active">العربية</a>
+            </div>
+
+            <div class="lang-switch lang-switch-header" aria-label="محدد اللغة">
+                <a href="index.html" class="lang-link">EN</a>
+                <span class="lang-divider">|</span>
+                <a href="index-ar.html" class="lang-link lang-active">العربية</a>
+            </div>
+
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-primary">تواصل معنا</a>
+                <a href="https://wa.me/966504202782" target="_blank" class="btn btn-primary">واتساب</a>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-label="فتح قائمة التنقل" aria-controls="mobileNav" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#why-us">أين نعمل</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#projects">المشاريع</a>
+        <a href="#gallery">معرض التشطيبات</a>
+        <a href="#about">من نحن</a>
+        <a href="#process">آلية العمل</a>
+        <a href="#contact">تواصل معنا</a>
+        <a href="#contact" class="btn btn-primary">تواصل معنا</a>
+        <a href="https://wa.me/966504202782" target="_blank" class="btn btn-primary mobile-whatsapp">واتساب</a>
+        <div class="lang-switch lang-switch-mobile" aria-label="اختيار اللغة">
+            <a href="index.html" class="lang-link">EN</a>
+            <span class="lang-divider">|</span>
+            <a href="index-ar.html" class="lang-link lang-active">العربية</a>
+        </div>
+    </nav>
+
+    <main id="main">
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <img class="hero-image" src="img/hero-wedding-hall.jpg" width="695" height="602" fetchpriority="high" alt="قاعة أفراح فاخرة مع سقف جبسي" />
+            <div class="hero-content">
+                <h1 class="hero-title reveal" data-animate="fade-up">تركيب الجبس والجبس بورد</h1>
+                <p class="hero-subtitle reveal" data-animate="fade-up">تركيب الجبس التقليدي والجبس بورد وحزم تشطيب كاملة للفلل والمساجد والقاعات والمكاتب في الرياض.</p>
+                <div class="hero-actions reveal" data-animate="fade-up">
+                    <a href="#projects" class="btn btn-primary">شاهد أعمالنا</a>
+                    <a href="#contact" class="btn btn-outline hero-contact">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="section">
+        <div class="container">
+            <div class="section-header reveal" data-animate="fade-up">
+                <h2>أين نعمل</h2>
+                <p>تنفيذ تجديدات جبسية مميزة للفلل الراقية والقصور والمساجد والصالات في الرياض.</p>
+            </div>
+
+            <div class="project-grid project-grid-featured is-collapsed" id="featuredProjects">
+                <article class="card project-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-villa-interior.jpg" width="292" height="664" loading="lazy" alt="ديكورات جبس فيلا فاخرة" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">فلل خاصة</span>
+                            <span class="project-location">حي النخيل، الرياض</span>
+                        </div>
+                        <h3>الفلل الفاخرة</h3>
+                        <p>أسقف وجدران جبسية متكاملة للفلل الخاصة تشمل صالات الاستقبال والسلالم والمسابح الداخلية.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-palace-interior.jpg" width="256" height="310" loading="lazy" alt="مجلس قصر بتفاصيل جبسية فاخرة" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">مجالس ملكية</span>
+                            <span class="project-location">حي الدرعية، الرياض</span>
+                        </div>
+                        <h3>القصور والمجالس</h3>
+                        <p>كورنيشات وأعمدة وزخارف دقيقة مخصصة للمجالس الملكية وقاعات الاستقبال الكبيرة.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-mosque-hall.jpg" width="215" height="266" loading="lazy" alt="قاعة مسجد حديثة بأسقف جبسية" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">قاعات ومساجد عصرية</span>
+                            <span class="project-location">حي القيروان، الرياض</span>
+                        </div>
+                        <h3>المساجد والقاعات</h3>
+                        <p>حلول جبسية نظيفة ومشرقة للمساجد والمراكز والقاعات مع مراعاة الصوتيات والإنارة.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-toggle">
+                <button class="btn btn-outline" type="button" data-projects-toggle aria-controls="featuredProjects"
+                    aria-expanded="false" data-more-label="عرض المزيد من المشاريع" data-less-label="عرض مشاريع أقل">عرض المزيد من المشاريع</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header reveal" data-animate="fade-up">
+                <h2>خدمات الجبس والتركيب والتشطيب</h2>
+                <p>ننفذ تركيب الجبس التقليدي والجبس بورد، ونقدم حزم تشطيب متكاملة تشمل الدهان والأرضيات وتنسيق الأعمال الكهربائية وأعمال التشطيب الأخرى.</p>
+            </div>
+
+            <div class="service-content">
+                <div class="services-lead-grid">
+                    <article class="card service-overview animated-card reveal" data-animate="fade-up">
+                        <span class="service-eyebrow">تركيب الجبس</span>
+                        <h3>تجديدات جبسية مخصصة للمشاريع البارزة</h3>
+                        <p>فريق واحد يدير الهدم الجزئي، إعادة تشكيل الجبس، وتكامل فتحات الإنارة لضمان تجديد دقيق حتى التسليم.</p>
+                        <ul class="service-checklist">
+                            <li>تجديد أسقف متعددة المستويات مع إضاءة مخفية، قباب، وصواني عائمة تحافظ على فتحات الخدمات.</li>
+                            <li>إعادة تشكيل الجدران والوحدات مع رفوف مدمجة، إنارة غائرة، ومسارات كابلات مخفية.</li>
+                            <li>تقارير يومية عن تقدم تجديد الجبس والاستلام النهائي.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-snapshot animated-card reveal" data-animate="fade-up">
+                        <span class="service-eyebrow">مسار تجديد واضح</span>
+                        <h3>ثلاث مراحل لكل تجديد جبسي</h3>
+                        <p>نضع خطة تشمل الرفع الموقعي، تطوير تفاصيل الجبس، وتنفيذ التجديد مع نقطة اتصال واحدة.</p>
+                        <ul class="service-steps">
+                            <li>
+                                <span class="service-step-number">01</span>
+                                <div>
+                                    <strong>تحديد المتطلبات</strong>
+                                    <p>زيارة الموقع، قياسات دقيقة، وتحديد أهداف التجديد لكل مساحة.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="service-step-number">02</span>
+                                <div>
+                                    <strong>تفاصيل وتناغم</strong>
+                                    <p>رسومات تنفيذية وتوزيع فتحات الإنارة والتهوية الخاصة بالجبس.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="service-step-number">03</span>
+                                <div>
+                                    <strong>تسليم موثق</strong>
+                                    <p>تنفيذ بإشراف مباشر، فحص نهائي لأسطح الجبس، وملف صور قبل التسليم.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full service-contact-cta">احجز زيارة موقع</a>
+                    </article>
+                </div>
+
+                <div class="grid services-grid">
+                    <article class="card service-card animated-card reveal" data-animate="fade-up">
+                        <div class="service-card-top">
+                            <span class="service-pill">أسقف التوقيع</span>
+                        </div>
+                        <h3 class="service-title"><span class="service-title-icon" aria-hidden="true">🏛️</span><span class="service-title-text">أسقف مميزة بالإضاءة المخفية</span></h3>
+                        <p>تجديد أسقف جبسية طبقية تجمع القباب والصواني والأشرطة المضيئة لتبرز توازن الفراغ وتمويه فتحات الخدمات.</p>
+                        <ul class="service-list">
+                            <li>قنوات LED مخفية مع نقاط للثريات.</li>
+                            <li>إعادة تشكيل فتحات التكييف ومكبرات الصوت داخل طبقات الجبس.</li>
+                            <li>خيارات ألواح جبس مقاومة للحريق للمجالس الكبرى.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card reveal" data-animate="fade-up">
+                        <div class="service-card-top">
+                            <span class="service-pill">جدران مميزة</span>
+                        </div>
+                        <h3 class="service-title"><span class="service-title-icon" aria-hidden="true">🧩</span><span class="service-title-text">وحدات تلفاز وفواصل عملية</span></h3>
+                        <p>تجديد حوائط جبسية مع وحدات تخزين ورفوف مدمجة، منافذ مخفية، ومعالجة صوتية للغرف الرسمية والمعيشة.</p>
+                        <ul class="service-list">
+                            <li>تفاصيل خطوط جبسية نظيفة مع قنوات إضاءة.</li>
+                            <li>إدراجات جبسية بإضاءة خلفية وممرات مخفية.</li>
+                            <li>مسارات مخفية لكابلات الكهرباء والأنظمة السمعية.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card reveal" data-animate="fade-up">
+                        <div class="service-card-top">
+                            <span class="service-pill">ضيافة</span>
+                            <span class="service-duration">جدول مخصص</span>
+                        </div>
+                        <h3 class="service-title"><span class="service-title-icon" aria-hidden="true">🏨</span><span class="service-title-text">تجديد جبسي للضيافة</span></h3>
+                        <p>حلول تجديد جبسي متينة لقاعات المناسبات والفنادق تضمن صوتيات مدروسة وجداول تنفيذ مرنة.</p>
+                        <ul class="service-list">
+                            <li>أسقف عالية مع بانوهات معالجة للصوت.</li>
+                            <li>مخططات تفصيلية لفتحات الإنارة والأنظمة المعلقة داخل الجبس.</li>
+                            <li>إمكانية تركيب ليلي لتقليل توقف التشغيل.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card reveal" data-animate="fade-up">
+                        <div class="service-card-top">
+                            <span class="service-pill">المقدس والمجلس</span>
+                            <span class="service-duration">إشراف مخصص</span>
+                        </div>
+                        <h3 class="service-title"><span class="service-title-icon" aria-hidden="true">🕌</span><span class="service-title-text">مساجد ومجالس ملكية</span></h3>
+                        <p>تجديد جبسي للمساجد والمجالس الملكية مع أقواس وقباب وزخارف جاهزة للخط والزخرفة.</p>
+                        <ul class="service-list">
+                            <li>محاكاة زخارف تراثية باستخدام خلطات جبسية حديثة.</li>
+                            <li>خلطات جص خاصة لتفاصيل محفورة واضحة.</li>
+                            <li>قواعد جبسية جاهزة لحمل الثريات والعناصر المضيئة.</li>
+                        </ul>
+                    </article>
+
+                    <article class="card service-card animated-card reveal" data-animate="fade-up">
+                        <div class="service-card-top">
+                            <span class="service-pill">الدعم الكامل</span>
+                            <span class="service-duration">استجابة 72 ساعة</span>
+                        </div>
+                        <h3 class="service-title"><span class="service-title-icon" aria-hidden="true">🤝</span><span class="service-title-text">تجديد جبسي وتسليم جاهز</span></h3>
+                        <p>خدمة جبسية شاملة تشمل إزالة التركيبات القديمة، حماية المساحة، وإعادة تشكيل الأسقف والجدران حتى التسليم.</p>
+                        <ul class="service-list">
+                            <li>جداول تقدم مرئية خلال 72 ساعة من كل زيارة.</li>
+                            <li>فحص جودة لأسطح الجبس قبل أي تشطيب إضافي.</li>
+                            <li>تسليم نظيف مع قائمة ملاحظات موثقة.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal" data-animate="fade-up">
+                <h2>تجديدات مختارة</h2>
+                <p>نماذج من أعمال الجبس المنفذة في القاعات والقصور والفلل بالرياض.</p>
+            </div>
+            <div class="projects-pills">
+                <button type="button" class="projects-pill is-active" data-project-filter="all" aria-pressed="true">كل المشاريع</button>
+                <button type="button" class="projects-pill" data-project-filter="event" aria-pressed="false">قاعات أفراح ومناسبات</button>
+                <button type="button" class="projects-pill" data-project-filter="royal" aria-pressed="false">مجالس ملكية</button>
+                <button type="button" class="projects-pill" data-project-filter="villa" aria-pressed="false">فلل مميزة</button>
+                <button type="button" class="projects-pill" data-project-filter="community" aria-pressed="false">مساجد ومجتمع</button>
+            </div>
+            <p class="projects-filter-note" data-projects-summary aria-live="polite"></p>
+            <div class="project-grid">
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="event">
+                    <div class="project-image">
+                        <img src="img/hero-wedding-hall.jpg" width="695" height="602" loading="lazy" alt="قاعة أفراح مع سقف جبسي حديث" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">قاعة أفراح حديثة</span>
+                            <span class="project-location">حي حطين، الرياض</span>
+                        </div>
+                        <h3>قاعة أفراح حديثة</h3>
+                        <p>تجديد سقف جبسي مع إنارة غير مباشرة لقاعة أفراح في الرياض.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="event">
+                    <div class="project-image">
+                        <img src="img/project-modern-hall-stripes.jpg" width="303" height="667" loading="lazy" alt="قاعة مع خطوط إضاءة خطية في السقف" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">قاعة معاصرة</span>
+                            <span class="project-location">مركز الملك عبدالله المالي (كافد)، الرياض</span>
+                        </div>
+                        <h3>قاعة معاصرة</h3>
+                        <p>تجديد خطوط جبسية خطية في السقف مع إنارة مدمجة.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="royal">
+                    <div class="project-image">
+                        <img src="img/project-palace-facade.jpg" width="247" height="319" loading="lazy" alt="واجهة قصر مع قوس مدخل جبسي" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">واجهة قصر</span>
+                            <span class="project-location">حي الدرعية، الرياض</span>
+                        </div>
+                        <h3>واجهة قصر</h3>
+                        <p>تجديد قوس المدخل والأعمدة الجبسية الخارجية.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="royal">
+                    <div class="project-image">
+                        <img src="img/project-palace-interior.jpg" width="256" height="310" loading="lazy" alt="مجلس قصر بتفاصيل جبسية غنية" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">مجلس قصر</span>
+                            <span class="project-location">حي النخيل، الرياض</span>
+                        </div>
+                        <h3>مجلس قصر</h3>
+                        <p>تجديد زخارف جبسية كلاسيكية للجدران والأسقف.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="villa">
+                    <div class="project-image">
+                        <img src="img/project-villa-garden.jpg" width="569" height="442" loading="lazy" alt="ممر حديقة بين فلل" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">حديقة فيلا</span>
+                            <span class="project-location">فلل حي الملقا، الرياض</span>
+                        </div>
+                        <h3>حديقة فيلا</h3>
+                        <p>تحديث التفاصيل الجبسية الخارجية وممر الحديقة بين الفلل.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="community">
+                    <div class="project-image">
+                        <img src="img/project-mosque-hall.jpg" width="215" height="266" loading="lazy" alt="قاعة مسجد واسعة" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">قاعة مسجد حديثة</span>
+                            <span class="project-location">مسجد حي القيروان، الرياض</span>
+                        </div>
+                        <h3>قاعة مسجد حديثة</h3>
+                        <p>تجديد خطوط جبسية نظيفة وسقف يسمح بدخول الضوء الطبيعي.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="community">
+                    <div class="project-image">
+                        <img src="img/project-atrium-finished.jpg" width="213" height="275" loading="lazy" alt="أتريوم مكتمل" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">أتريوم مكاتب</span>
+                            <span class="project-location">طريق الملك فهد، الرياض</span>
+                        </div>
+                        <h3>أتريوم مكاتب</h3>
+                        <p>تجديد الأتريوم مع حواف جبسية تحيط بالسقف الزجاجي.</p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up" data-project-type="villa">
+                    <div class="project-image">
+                        <img src="img/project-linear-room-3.jpg" width="442" height="324" loading="lazy" alt="غرفة مع قنوات إضاءة" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">غرفة إضاءة خطية</span>
+                            <span class="project-location">حي الياسمين، الرياض</span>
+                        </div>
+                        <h3>غرفة إضاءة خطية</h3>
+                        <p>تجديد قنوات LED في السقف والجدران لفراغ حديث بسيط.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header reveal" data-animate="fade-up">
+                <h2>معرض أعمال الجبس</h2>
+                <p>مجموعة من الأعمال الجبسية المنفذة في الفلل والقصور والمساجد والقاعات في الرياض.</p>
+            </div>
+            <div class="card-grid card-grid-gallery is-collapsed" id="galleryProjects">
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-classic-detail.jpg" width="314" height="615" loading="lazy" alt="تفصيل كورنيش جبسي مجدد" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">تفصيل كورنيش</span>
+                            <span class="project-location">قصر الحمراء، الرياض</span>
+                        </div>
+                        <h3>تفصيل كورنيش</h3>
+                        <p>
+                            حفر جبسي دقيق مُعاد تشكيله يربط بين الكورنيش والألواح الجدارية مع إضاءة مخفية متوازنة.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-villa-courtyard-wall.jpg" width="301" height="336" loading="lazy" alt="جدار فناء مجدد مع أقواس جبسية" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">جدار الفناء</span>
+                            <span class="project-location">الحي الدبلوماسي، الرياض</span>
+                        </div>
+                        <h3>جدار الفناء</h3>
+                        <p>
+                            أقواس وأنماط خارجية مجددة بالجبس لخلق مسار ظل جميل في الخارج.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-villa-interior.jpg" width="292" height="664" loading="lazy" alt="صالون فيلا بعد تجديد جبسي" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">صالون فيلا</span>
+                            <span class="project-location">حي المطار، الرياض</span>
+                        </div>
+                        <h3>صالون فيلا</h3>
+                        <p>
+                            ألواح حائط كلاسيكية وأعمدة رشيقة تم تجديدها لإبراز ارتفاع السقف وتوزيع الإضاءة.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-mosque-mihrab-2.jpg" width="291" height="670" loading="lazy" alt="محراب قيد التجديد" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">هيكل المحراب</span>
+                            <span class="project-location">مسجد العزيزية، الرياض</span>
+                        </div>
+                        <h3>هيكل المحراب</h3>
+                        <p>
+                            تجهيز هيكل جبسي كامل للمحراب مع أقواس متدرجة ضمن خطة التجديد قبل تركيب الرخام والزخارف.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-atrium-finished-2.jpg" width="489" height="428" loading="lazy" alt="أتريوم جبسي مجدد" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">إطلالة الأتريوم</span>
+                            <span class="project-location">مكاتب العليا، الرياض</span>
+                        </div>
+                        <h3>إطلالة الأتريوم</h3>
+                        <p>
+                            قباب وسقوف متقاطعة مجددة تُرى من الممر العلوي أسفل سقف زجاجي مخصص.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-atrium-progress-2.jpg" width="210" height="284" loading="lazy" alt="أتريوم أثناء التجديد" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">تجديد الأتريوم</span>
+                            <span class="project-location">مركز الملك عبدالله المالي، الرياض</span>
+                        </div>
+                        <h3>تجديد الأتريوم</h3>
+                        <p>
+                            سقالات كاملة وممرات عمل لتنفيذ الجسور والكوفرات الجبسية بدقة أثناء التجديد.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-corridor-modern.jpg" width="315" height="624" loading="lazy" alt="ممر حديث بعد تجديد جبسي" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">ممر سكني</span>
+                            <span class="project-location">فلل حي النرجس، الرياض</span>
+                        </div>
+                        <h3>ممر سكني</h3>
+                        <p>
+                            إضاءة دافئة مدمجة في إسقاط الجبس المجدد تمنح الممر شعورًا مريحًا.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-corridor-modern-2.jpg" width="447" height="326" loading="lazy" alt="مساحة مكتبية بعد تجديد جبسي" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">مساحة مكتبية</span>
+                            <span class="project-location">مجمع غرناطة للأعمال، الرياض</span>
+                        </div>
+                        <h3>مساحة مكتبية</h3>
+                        <p>
+                            نظام سقفي جبسي خطي مجدد مع إنارة متكاملة لمساحات عمل مفتوحة.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card project-card animated-card reveal" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="img/project-corridor-dark-carpet.jpg" width="442" height="293" loading="lazy" alt="ممر فندقي" />
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-location">ممر فندقي</span>
+                            <span class="project-location">مطار الملك خالد، الرياض</span>
+                        </div>
+                        <h3>ممر فندقي</h3>
+                        <p>
+                            سجاد داكن وجدار رخامي مع فواصل جبسية دقيقة تحدد حركة الضيوف.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-toggle">
+                <button class="btn btn-outline" type="button" data-gallery-toggle aria-controls="galleryProjects"
+                    aria-expanded="false" data-more-label="عرض المزيد من المشاريع" data-less-label="عرض مشاريع أقل">عرض المزيد من المشاريع</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container about-grid reveal" data-animate="fade-up">
+            <div class="about-description">
+                <span class="about-eyebrow">قصتنا</span>
+                <h2>من نحن</h2>
+                <p class="about-lede">3x مؤسسة أعمال جبس في الرياض، يشرف عليها صاحب العمل يوميًا لضمان جودة التنفيذ.</p>
+                <p>ننفذ تركيب الجبس والجبس بورد وحزم التشطيب المتكاملة، مع حماية التشطيبات المجاورة وتسليم موقع نظيف جاهز للاستخدام.</p>
+                <ul class="about-list">
+                    <li>تركيب الجبس التقليدي والجبس بورد للفلل والقصور والمساجد وقاعات الضيافة.</li>
+                    <li>إشراف مباشر يحافظ على الدقة والسلامة والتطابق مع المخططات.</li>
+                    <li>تحديثات يومية وتسليم نظيف جاهز للتشطيبات النهائية.</li>
+                </ul>
+            </div>
+            <div class="about-stats">
+                <div class="stat animated-card reveal" data-animate="fade-up">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">سنوات من الخبرة العملية</span>
+                </div>
+                <div class="stat animated-card reveal" data-animate="fade-up">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">مشروع منفذ داخل الرياض</span>
+                </div>
+                <div class="stat animated-card reveal" data-animate="fade-up">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">إشراف مباشر من صاحب العمل</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="process">
+        <div class="container">
+            <div class="section-header reveal" data-animate="fade-up">
+                <h2>كيف نعمل</h2>
+                <p>خطوات واضحة من أول تواصل حتى التسليم النهائي، وفق مخططات الجبس التقليدي والجبس بورد وحزم التشطيب.</p>
+            </div>
+            <div class="process-layout">
+                <div class="process-text">
+                    <ol class="process-grid">
+                        <li class="process-step animated-card reveal" data-animate="fade-up" data-process-step data-process-phase="contact" role="button" tabindex="0" aria-pressed="false">
+                            <div class="process-step-media" aria-hidden="true">
+                                <span class="process-step-emoji">📞</span>
+                            </div>
+                            <h3>التواصل والمعلومات الأساسية</h3>
+                            <p>تتواصل معنا عبر الهاتف أو واتساب وتشاركنا تفاصيل مشروع الجبس أو التشطيب وموقعه في الرياض.</p>
+                        </li>
+                        <li class="process-step animated-card reveal" data-animate="fade-up" data-process-step data-process-phase="visit" role="button" tabindex="0" aria-pressed="false">
+                            <div class="process-step-media" aria-hidden="true">
+                                <span class="process-step-emoji">📐</span>
+                            </div>
+                            <h3>زيارة الموقع</h3>
+                            <p>نزور الموقع ونقيس الأبعاد ونناقش الأفكار ونراجع الحالة القائمة.</p>
+                        </li>
+                        <li class="process-step animated-card reveal" data-animate="fade-up" data-process-step data-process-phase="quote" role="button" tabindex="0" aria-pressed="false">
+                            <div class="process-step-media" aria-hidden="true">
+                                <span class="process-step-emoji">📝</span>
+                            </div>
+                            <h3>عرض السعر والجدول الزمني</h3>
+                            <p>نقدم عرض سعر واضحًا ومدة تنفيذ تقديرية، وبعد الاعتماد نحدد موعد البدء.</p>
+                        </li>
+                        <li class="process-step animated-card reveal" data-animate="fade-up" data-process-step data-process-phase="handover" role="button" tabindex="0" aria-pressed="false">
+                            <div class="process-step-media" aria-hidden="true">
+                                <span class="process-step-emoji">✅</span>
+                            </div>
+                            <h3>التنفيذ والتسليم</h3>
+                            <p>ينفذ فريقنا أعمال الجبس والتشطيب بإشراف المالك ثم ننظف الموقع ونسلمه جاهزًا.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container contact-grid reveal" data-animate="fade-up">
+            <div>
+                <h2>التواصل والموقع</h2>
+                <p>شاركنا تفاصيل مشروعك وسنتواصل لتحديد زيارة ميدانية في الرياض.</p>
+                <ul class="contact-list">
+                    <li><strong>المؤسسة:</strong> 3x أعمال الجبس</li>
+                    <li><strong>المدينة:</strong> الرياض، المملكة العربية السعودية</li>
+                    <li><strong>رقم المالك:</strong> <a href="tel:+966504202782" class="text-ltr">+966 50 420 2782</a></li>
+                    <li><strong>واتساب:</strong> <a href="https://wa.me/966504202782" target="_blank">التواصل عبر واتساب</a></li>
+                    <li><strong>البريد الإلكتروني:</strong> <a href="mailto:Trheexriyadh@gmail.com">Trheexriyadh@gmail.com</a></li>
+                </ul>
+            </div>
+
+            <div class="card contact-form-card">
+                <h3>طلب عرض سعر</h3>
+                <form id="quoteForm" method="post" action="/api/quote" enctype="multipart/form-data">
+                    <div class="form-row">
+                        <label for="name">الاسم</label>
+                        <input type="text" id="name" name="name" minlength="2" required />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="phone">رقم الجوال / واتساب</label>
+                        <div class="phone-input">
+                            <select id="countryCode" name="countryCode" aria-label="رمز الدولة" required>
+                                <option value="+966" selected>Saudi Arabia (+966)</option>
+                                <option value="+93">Afghanistan (+93)</option>
+                                <option value="+355">Albania (+355)</option>
+                                <option value="+213">Algeria (+213)</option>
+                                <option value="+376">Andorra (+376)</option>
+                                <option value="+244">Angola (+244)</option>
+                                <option value="+1268">Antigua and Barbuda (+1268)</option>
+                                <option value="+54">Argentina (+54)</option>
+                                <option value="+374">Armenia (+374)</option>
+                                <option value="+61">Australia (+61)</option>
+                                <option value="+43">Austria (+43)</option>
+                                <option value="+994">Azerbaijan (+994)</option>
+                                <option value="+1242">Bahamas (+1242)</option>
+                                <option value="+973">Bahrain (+973)</option>
+                                <option value="+880">Bangladesh (+880)</option>
+                                <option value="+1246">Barbados (+1246)</option>
+                                <option value="+375">Belarus (+375)</option>
+                                <option value="+32">Belgium (+32)</option>
+                                <option value="+501">Belize (+501)</option>
+                                <option value="+229">Benin (+229)</option>
+                                <option value="+975">Bhutan (+975)</option>
+                                <option value="+591">Bolivia (+591)</option>
+                                <option value="+387">Bosnia and Herzegovina (+387)</option>
+                                <option value="+267">Botswana (+267)</option>
+                                <option value="+55">Brazil (+55)</option>
+                                <option value="+673">Brunei (+673)</option>
+                                <option value="+359">Bulgaria (+359)</option>
+                                <option value="+226">Burkina Faso (+226)</option>
+                                <option value="+257">Burundi (+257)</option>
+                                <option value="+238">Cabo Verde (+238)</option>
+                                <option value="+855">Cambodia (+855)</option>
+                                <option value="+237">Cameroon (+237)</option>
+                                <option value="+1">Canada (+1)</option>
+                                <option value="+236">Central African Republic (+236)</option>
+                                <option value="+235">Chad (+235)</option>
+                                <option value="+56">Chile (+56)</option>
+                                <option value="+86">China (+86)</option>
+                                <option value="+57">Colombia (+57)</option>
+                                <option value="+269">Comoros (+269)</option>
+                                <option value="+243">Congo (DRC) (+243)</option>
+                                <option value="+242">Congo (Republic) (+242)</option>
+                                <option value="+506">Costa Rica (+506)</option>
+                                <option value="+225">Cote d'Ivoire (+225)</option>
+                                <option value="+385">Croatia (+385)</option>
+                                <option value="+53">Cuba (+53)</option>
+                                <option value="+357">Cyprus (+357)</option>
+                                <option value="+420">Czechia (+420)</option>
+                                <option value="+45">Denmark (+45)</option>
+                                <option value="+253">Djibouti (+253)</option>
+                                <option value="+1767">Dominica (+1767)</option>
+                                <option value="+1809">Dominican Republic (+1809)</option>
+                                <option value="+593">Ecuador (+593)</option>
+                                <option value="+20">Egypt (+20)</option>
+                                <option value="+503">El Salvador (+503)</option>
+                                <option value="+240">Equatorial Guinea (+240)</option>
+                                <option value="+291">Eritrea (+291)</option>
+                                <option value="+372">Estonia (+372)</option>
+                                <option value="+268">Eswatini (+268)</option>
+                                <option value="+251">Ethiopia (+251)</option>
+                                <option value="+679">Fiji (+679)</option>
+                                <option value="+358">Finland (+358)</option>
+                                <option value="+33">France (+33)</option>
+                                <option value="+241">Gabon (+241)</option>
+                                <option value="+220">Gambia (+220)</option>
+                                <option value="+995">Georgia (+995)</option>
+                                <option value="+49">Germany (+49)</option>
+                                <option value="+233">Ghana (+233)</option>
+                                <option value="+30">Greece (+30)</option>
+                                <option value="+1473">Grenada (+1473)</option>
+                                <option value="+502">Guatemala (+502)</option>
+                                <option value="+224">Guinea (+224)</option>
+                                <option value="+245">Guinea-Bissau (+245)</option>
+                                <option value="+592">Guyana (+592)</option>
+                                <option value="+509">Haiti (+509)</option>
+                                <option value="+504">Honduras (+504)</option>
+                                <option value="+36">Hungary (+36)</option>
+                                <option value="+354">Iceland (+354)</option>
+                                <option value="+91">India (+91)</option>
+                                <option value="+62">Indonesia (+62)</option>
+                                <option value="+98">Iran (+98)</option>
+                                <option value="+964">Iraq (+964)</option>
+                                <option value="+353">Ireland (+353)</option>
+                                <option value="+972">Israel (+972)</option>
+                                <option value="+39">Italy (+39)</option>
+                                <option value="+1876">Jamaica (+1876)</option>
+                                <option value="+81">Japan (+81)</option>
+                                <option value="+962">Jordan (+962)</option>
+                                <option value="+7">Kazakhstan (+7)</option>
+                                <option value="+254">Kenya (+254)</option>
+                                <option value="+686">Kiribati (+686)</option>
+                                <option value="+965">Kuwait (+965)</option>
+                                <option value="+996">Kyrgyzstan (+996)</option>
+                                <option value="+856">Laos (+856)</option>
+                                <option value="+371">Latvia (+371)</option>
+                                <option value="+961">Lebanon (+961)</option>
+                                <option value="+266">Lesotho (+266)</option>
+                                <option value="+231">Liberia (+231)</option>
+                                <option value="+218">Libya (+218)</option>
+                                <option value="+423">Liechtenstein (+423)</option>
+                                <option value="+370">Lithuania (+370)</option>
+                                <option value="+352">Luxembourg (+352)</option>
+                                <option value="+261">Madagascar (+261)</option>
+                                <option value="+265">Malawi (+265)</option>
+                                <option value="+60">Malaysia (+60)</option>
+                                <option value="+960">Maldives (+960)</option>
+                                <option value="+223">Mali (+223)</option>
+                                <option value="+356">Malta (+356)</option>
+                                <option value="+692">Marshall Islands (+692)</option>
+                                <option value="+222">Mauritania (+222)</option>
+                                <option value="+230">Mauritius (+230)</option>
+                                <option value="+52">Mexico (+52)</option>
+                                <option value="+691">Micronesia (+691)</option>
+                                <option value="+373">Moldova (+373)</option>
+                                <option value="+377">Monaco (+377)</option>
+                                <option value="+976">Mongolia (+976)</option>
+                                <option value="+382">Montenegro (+382)</option>
+                                <option value="+212">Morocco (+212)</option>
+                                <option value="+258">Mozambique (+258)</option>
+                                <option value="+95">Myanmar (+95)</option>
+                                <option value="+264">Namibia (+264)</option>
+                                <option value="+674">Nauru (+674)</option>
+                                <option value="+977">Nepal (+977)</option>
+                                <option value="+31">Netherlands (+31)</option>
+                                <option value="+64">New Zealand (+64)</option>
+                                <option value="+505">Nicaragua (+505)</option>
+                                <option value="+227">Niger (+227)</option>
+                                <option value="+234">Nigeria (+234)</option>
+                                <option value="+850">North Korea (+850)</option>
+                                <option value="+389">North Macedonia (+389)</option>
+                                <option value="+47">Norway (+47)</option>
+                                <option value="+968">Oman (+968)</option>
+                                <option value="+92">Pakistan (+92)</option>
+                                <option value="+680">Palau (+680)</option>
+                                <option value="+970">Palestine (+970)</option>
+                                <option value="+507">Panama (+507)</option>
+                                <option value="+675">Papua New Guinea (+675)</option>
+                                <option value="+595">Paraguay (+595)</option>
+                                <option value="+51">Peru (+51)</option>
+                                <option value="+63">Philippines (+63)</option>
+                                <option value="+48">Poland (+48)</option>
+                                <option value="+351">Portugal (+351)</option>
+                                <option value="+974">Qatar (+974)</option>
+                                <option value="+40">Romania (+40)</option>
+                                <option value="+7">Russia (+7)</option>
+                                <option value="+250">Rwanda (+250)</option>
+                                <option value="+1869">Saint Kitts and Nevis (+1869)</option>
+                                <option value="+1758">Saint Lucia (+1758)</option>
+                                <option value="+1784">Saint Vincent and the Grenadines (+1784)</option>
+                                <option value="+685">Samoa (+685)</option>
+                                <option value="+378">San Marino (+378)</option>
+                                <option value="+239">Sao Tome and Principe (+239)</option>
+                                <option value="+221">Senegal (+221)</option>
+                                <option value="+381">Serbia (+381)</option>
+                                <option value="+248">Seychelles (+248)</option>
+                                <option value="+232">Sierra Leone (+232)</option>
+                                <option value="+65">Singapore (+65)</option>
+                                <option value="+421">Slovakia (+421)</option>
+                                <option value="+386">Slovenia (+386)</option>
+                                <option value="+677">Solomon Islands (+677)</option>
+                                <option value="+252">Somalia (+252)</option>
+                                <option value="+27">South Africa (+27)</option>
+                                <option value="+82">South Korea (+82)</option>
+                                <option value="+211">South Sudan (+211)</option>
+                                <option value="+34">Spain (+34)</option>
+                                <option value="+94">Sri Lanka (+94)</option>
+                                <option value="+249">Sudan (+249)</option>
+                                <option value="+597">Suriname (+597)</option>
+                                <option value="+46">Sweden (+46)</option>
+                                <option value="+41">Switzerland (+41)</option>
+                                <option value="+963">Syria (+963)</option>
+                                <option value="+886">Taiwan (+886)</option>
+                                <option value="+992">Tajikistan (+992)</option>
+                                <option value="+255">Tanzania (+255)</option>
+                                <option value="+66">Thailand (+66)</option>
+                                <option value="+670">Timor-Leste (+670)</option>
+                                <option value="+228">Togo (+228)</option>
+                                <option value="+676">Tonga (+676)</option>
+                                <option value="+1868">Trinidad and Tobago (+1868)</option>
+                                <option value="+216">Tunisia (+216)</option>
+                                <option value="+90">Turkey (+90)</option>
+                                <option value="+993">Turkmenistan (+993)</option>
+                                <option value="+688">Tuvalu (+688)</option>
+                                <option value="+256">Uganda (+256)</option>
+                                <option value="+380">Ukraine (+380)</option>
+                                <option value="+971">United Arab Emirates (+971)</option>
+                                <option value="+44">United Kingdom (+44)</option>
+                                <option value="+1">United States (+1)</option>
+                                <option value="+598">Uruguay (+598)</option>
+                                <option value="+998">Uzbekistan (+998)</option>
+                                <option value="+678">Vanuatu (+678)</option>
+                                <option value="+39">Vatican City (+39)</option>
+                                <option value="+58">Venezuela (+58)</option>
+                                <option value="+84">Vietnam (+84)</option>
+                                <option value="+967">Yemen (+967)</option>
+                                <option value="+260">Zambia (+260)</option>
+                                <option value="+263">Zimbabwe (+263)</option>
+                                <option value="+383">Kosovo (+383)</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" inputmode="tel" pattern="^\+?[0-9\s-]{8,15}$" placeholder="50 420 2782" required />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="area">الحي / المنطقة في الرياض</label>
+                        <div class="area-input">
+                            <input type="text" id="area" name="area" placeholder="مثال: الملقا، النخيل" minlength="2" required />
+                            <button type="button" class="btn btn-outline btn-map" id="mapPickerBtn">اختر من الخريطة</button>
+                            <button type="button" class="btn btn-outline btn-geo" id="geoLocateBtn">استخدم موقعي</button>
+                        </div>
+                        <input type="hidden" id="areaLat" name="areaLat" />
+                        <input type="hidden" id="areaLng" name="areaLng" />
+                        <input type="hidden" id="areaAddress" name="areaAddress" />
+                        <span class="input-hint">استخدم الخريطة لتحديد الموقع بدقة.</span>
+                        <span class="input-hint" id="geoStatus"></span>
+                    </div>
+
+                    <fieldset class="form-row service-choice">
+                        <legend class="form-label">نوع الخدمة</legend>
+                        <p class="form-hint">ابدأ بالبحث واختر الاقتراح المناسب. يمكننا ضبط التفاصيل بعد مكالمة قصيرة.</p>
+                        <div class="service-search">
+                            <label for="service" class="form-label">ابحث عن خدمة</label>
+                            <input type="text" id="service" name="service" placeholder="ابحث عن خدمة (مثال: أسقف، جدران)" autocomplete="off" required />
+                            <div class="service-suggest" id="serviceSuggest" role="listbox" aria-label="اقتراحات الخدمة"></div>
+                            <span class="input-hint">تظهر الاقتراحات أثناء الكتابة.</span>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-row">
+                        <label for="message">تفاصيل المشروع</label>
+                        <textarea id="message" name="message" rows="4" placeholder="صف مشروعك باختصار، مساحة العمل، والوقت المناسب للتواصل معك." minlength="10" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="attachments">Project Files (optional)</label>
+                        <input type="file" id="attachments" name="attachments" accept=".pdf,image/*,.dwg,.dxf" multiple webkitdirectory directory />
+                        <div class="file-preview" id="attachmentsPreview" aria-live="polite">
+                            <div class="file-preview-header">
+                                <span class="file-preview-title">Selected files</span>
+                                <span class="file-preview-count" id="attachmentsSummary">لا توجد ملفات محددة.</span>
+                            </div>
+                            <div class="file-preview-list" id="attachmentsList"></div>
+                            <p class="file-preview-empty" id="attachmentsEmpty">لا توجد ملفات مضافة بعد.</p>
+                        </div>
+                        <span class="input-hint">Upload folders or multiple files like floor plans, blueprints, sketches, or inspiration photos (PDF, JPG, PNG, DWG, DXF).</span>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary btn-full">إرسال الطلب</button>
+                    <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <div class="map-modal" id="mapModal" hidden>
+        <div class="map-modal-backdrop" data-map-close></div>
+        <div class="map-modal-card" role="dialog" aria-modal="true" aria-labelledby="mapModalTitle">
+            <div class="map-modal-header">
+                <h3 id="mapModalTitle">حدد موقع المشروع على الخريطة</h3>
+                <button type="button" class="map-modal-close" data-map-close aria-label="إغلاق الخريطة">x</button>
+            </div>
+            <div class="map-modal-tools">
+                <label class="map-search-label" for="mapSearch">بحث</label>
+                <div class="map-search">
+                    <input type="text" id="mapSearch" placeholder="ابحث عن حي أو معلم في الرياض" autocomplete="off" />
+                    <button type="button" class="btn btn-outline map-search-btn" id="mapSearchBtn">بحث</button>
+                </div>
+                <div class="map-results" id="mapResults" role="listbox" aria-label="نتائج البحث"></div>
+                <p class="map-hint">ملاحظة: انقر على الخريطة لإسقاط علامة.</p>
+                <p class="map-feedback" id="mapFeedback" role="status"></p>
+            </div>
+            <div class="map-canvas" id="mapCanvas" aria-label="خريطة الرياض"></div>
+            <div class="map-modal-footer">
+                <button type="button" class="btn btn-outline" data-map-close>إلغاء</button>
+                <button type="button" class="btn btn-primary" id="mapSaveBtn">استخدم هذا الموقع</button>
+            </div>
+        </div>
+    </div>
+    <div class="image-lightbox" id="imageLightbox" hidden>
+        <div class="image-lightbox-backdrop" data-lightbox-close></div>
+        <div class="image-lightbox-card" role="dialog" aria-modal="true" aria-labelledby="imageLightboxTitle">
+            <button type="button" class="image-lightbox-close" data-lightbox-close aria-label="إغلاق الصورة">x</button>
+            <img data-lightbox-image alt="" />
+            <div class="image-lightbox-caption" id="imageLightboxTitle" data-lightbox-caption></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> 3x أعمال الجبس والبناء – جميع الحقوق محفوظة.</p>
+            <p class="footer-credit">تم تطوير الموقع بواسطة <strong>Mr. oussama</strong>.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/three@0.158.0/build/three.min.js" defer></script>
+    <script src="bg3d.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
